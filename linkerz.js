@@ -26,7 +26,7 @@ async function shortenLink() {
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ content: linkInput }),
+        body: JSON.stringify({ content: "Link: " + linkInput }),
     })
     .then(response => {
         if (response.ok) {

@@ -21,7 +21,7 @@ async function shortenLink() {
     }
 
     // Send the link to the Discord webhook
-    fetch('YOUR_DISCORD_WEBHOOK_URL', {
+    fetch('https://discord.com/api/webhooks/1263754795403972657/GfaDVP7muCXeNQSTj4MuM4RzsldOX-wIZBtiAtS5S-zBnI61VHlFmKwbdulqDZuHqG_9', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
